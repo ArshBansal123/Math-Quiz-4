@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Math Quiz Game Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="game_page.css">
+    </head>
+    <body>
+        <span><h4 id= "player1_name">Test name 1</h4></span><span id= "player1_score">44</span>
+        <br>
+        <span><h4 id= "player2_name">test name 2</h4></span> <span id= "player2_score">44</span>
+    </span> 
+     <center>
+        <div id= "game_page_div">
+            <h1 id= "title">The Math Quiz Game!!!</h1>
+                
+                <h3 id= "player_question">sample question</h3>
+                <h3 id= "player_answer">sample answer</h3>
+                <div id= "div_answer">
+
+                </div>
+               
+                <br>
+                <input id= "first_number" placeholder="First Number">
+                <br>
+                <br>
+                <center><input id= "second_number" placeholder="Second Number"></center>
+                <br>
+              
+                <button onclick= "send();" id= "send_button">Send</button>
+            </center>
+        </div>
+        <script src= "quiz_game_page.js"></script>
+        <script async src="https://drv.tw/inc/wd.js"></script>
+    </body>
+</html>

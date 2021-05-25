@@ -1,0 +1,40 @@
+#game_page_div{
+    border-radius: 50px;
+    background-color: rgba(238, 237, 237, 0.308);
+    border: none;
+    text-align:center;
+    width: 750px;
+    height: 500px;
+}
+#input_check_box{
+    border-radius: 50px;
+    background-color: rgba(238, 237, 237, 0.308);
+    border: none;
+    width: 300px; 
+    height: 45px;
+}
+body{
+    background-image: url("bg\ game\ page.png");
+    background-position-x: center;
+    background-position-y: center;
+    color: black;
+}   
+#first_number, #second_number{
+    border-radius: 50px;
+    background-color: rgba(238, 237, 237, 0.308);
+    border: none;
+    width: 300px; 
+    height: 45px;
+} 
+#send_button, #check_button{
+    width: 300px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: rgb(226, 59, 95);
+    color: white;
+    border: none;
+}
+#player1_name, #player2_name, #player1_score, #player2_score{
+    padding-left: 20;
+    color: white;
+}
